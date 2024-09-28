@@ -15,7 +15,7 @@ This is a web development project meant to create a website for one of the volun
     ```
 3. **Install requirements into your venv:**
    ```console
-   pip install -r requirements
+   pip install -r requirements.txt
    ```
 # Code Commit Process
 This section will detail the process you can use to commit code (Add code to the GitHub). Follow this process every time you want to contribute to the project.
