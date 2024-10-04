@@ -1,0 +1,31 @@
+*{
+    border-color: antiquewhite;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(aqua, gold)
+}
+.top {
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.top > a{
+    color: blueviolet;
+}
+.top > a:hover{
+    color:black;
+}
+.video {
+    display: flex;
+    margin-top: 200px;
+}
+.bio{
+    margin-top: 200px;
+}
+.service > span{
+    color: red;
+}
