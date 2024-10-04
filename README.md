@@ -5,5 +5,5 @@ This is a web development project meant to create a website for one of the volun
 ---
 ## Installation
 '''cmd
-pip install -r requirements
+pip install -r requirements.txt
 '''
