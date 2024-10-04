@@ -4,7 +4,6 @@ This is a web development project meant to create a website for one of the volun
 
 ---
 ## Installation
-<<<<<<< HEAD
 '''cmd
 pip install -r requirements.txt
 '''
