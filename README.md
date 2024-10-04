@@ -4,10 +4,6 @@ This is a web development project meant to create a website for one of the volun
 
 ---
 ## Installation
-'''cmd
-pip install -r requirements.txt
-'''
-=======
 1. **Clone the Repository:**
     ```bash
     git clone https://github.com/aggie-coding-club/Circle-K-International-Webdev.git
