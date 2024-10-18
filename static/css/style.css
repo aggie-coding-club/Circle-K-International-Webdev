@@ -1,31 +1,89 @@
-*{
-    border-color: antiquewhite;
-    font-family: "Open Sans", sans-serif;
-}
-body {
+#header {
+    position: fixed;
+  }
+  
+  #content {
+    margin-top: 100px;
+  }
+  #h1 { 
+    text-color: blue;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .mission{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(aqua, gold)
-}
-.top {
-    align-items: center;
+  }
+  .seal{
+    max-width: 100px;
+  }
+  .active{
     justify-content: space-between;
-    gap: 5px;
-}
-.top > a{
-    color: blueviolet;
-}
-.top > a:hover{
-    color:black;
-}
-.video {
+  }
+  .about {
     display: flex;
-    margin-top: 200px;
+    gap: 70px;
+    width: 850px;
+    padding: 60px 40px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+    max-height: 450px;
 }
-.bio{
-    margin-top: 200px;
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
 }
-.service > span{
-    color: red;
+.service {
+  display: flex;
+  gap: 70px;
+  width: 850px;
+  padding: 60px 40px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+  max-height: 450px;
+}
+.signup {
+  display: flex;
+  gap: 70px;
+  width: 850px;
+  padding: 60px 40px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+  max-height: 450px;
+}
+.schedule {
+  display: flex;
+  gap: 70px;
+  width: 850px;
+  padding: 60px 40px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+  max-height: 450px;
+}
+.contact {
+  display: flex;
+  gap: 70px;
+  width: 850px;
+  padding: 60px 40px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+  max-height: 450px;
 }
