@@ -53,3 +53,4 @@ Once you're done, you can switch back to the main branch and delete the feature 
 
     git checkout main
     git branch -D declanS
+>>>>>>> 3479f946fd7c923718f52ef55e3e9cf89a3b4f2f
