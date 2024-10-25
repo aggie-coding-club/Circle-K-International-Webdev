@@ -24,12 +24,14 @@
   }
   .about {
     display: flex;
+    flex-direction: column;
+    
     gap: 70px;
     width: 850px;
     padding: 60px 40px;
     background: #fff;
     border-radius: 10px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     box-shadow: 0 15px 20px rgba(0,0,0,0.1);
     max-height: 450px;
