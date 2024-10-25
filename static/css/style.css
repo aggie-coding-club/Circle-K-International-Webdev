@@ -25,7 +25,6 @@
   .about {
     display: flex;
     flex-direction: column;
-    
     gap: 70px;
     width: 850px;
     padding: 60px 40px;
