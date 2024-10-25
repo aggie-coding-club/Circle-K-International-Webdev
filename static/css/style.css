@@ -37,7 +37,7 @@
 .info {
   display: flex;
   justify-content: center;
-  padding: 200px;
+  padding: 20px 200px;
 }
 .service {
   display: flex;
@@ -81,6 +81,15 @@
   width: 850px;
   padding: 60px 40px;
   background: #fff;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+  max-height: 450px;
+}
+.rudderImage {
+  display: flex;
+  width: 850px;
   border-radius: 10px;
   align-items: flex-end;
   justify-content: space-between;
