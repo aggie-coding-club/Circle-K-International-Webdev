@@ -16,7 +16,6 @@ img {
   justify-content: space-between;
 }
 .about {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
@@ -28,12 +27,10 @@ img {
   max-height: 450px;
 }
 .info {
-  display: flex;
   justify-content: center;
   padding: 200px;
 }
 .service {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
@@ -45,7 +42,6 @@ img {
   max-height: 450px;
 }
 .signup {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
@@ -57,7 +53,6 @@ img {
   max-height: 450px;
 }
 .schedule {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
@@ -69,7 +64,6 @@ img {
   max-height: 450px;
 }
 .contact {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
