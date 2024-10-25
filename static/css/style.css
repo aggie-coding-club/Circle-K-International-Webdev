@@ -44,6 +44,13 @@ img {
   box-shadow: 0 15px 20px rgba(0,0,0,0.1);
   max-height: 450px;
 }
+.service_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+}
 .signup {
   display: flex;
   gap: 70px;
