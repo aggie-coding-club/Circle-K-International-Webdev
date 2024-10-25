@@ -33,7 +33,6 @@ img {
   padding: 200px;
 }
 .service {
-  display: flex;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
