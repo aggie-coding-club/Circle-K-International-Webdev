@@ -33,7 +33,7 @@ img {
   padding: 200px;
 }
 .service {
-  display: flex;
+  display: static;
   gap: 70px;
   width: 850px;
   padding: 60px 40px;
@@ -85,4 +85,9 @@ img {
 }
 .nav-link:hover {
   color: #42c2f5 !important;
+}
+.highlight {
+  background-color: rgb(14, 14, 14);
+  color: #fff;
+  padding: 5px 4px;
 }
