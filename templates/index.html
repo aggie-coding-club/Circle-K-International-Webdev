@@ -1,47 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>CKI WEB DEV</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="/static/css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <script src="/static/js/style.js"></script>
+
+
+  <title>TAMU CKI</title>
 </head>
-<body style="height:1500px">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
-        <a class="navbar-brand" href="#">
-            <img src="/static/img/Blue_CKI_Seal.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-            CKI A&M
-          </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#signup">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#schedule">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="info">
-      <div class="about" id="about" name="about">
-        <h1>About</h1>
-      </div>
+<body>
+<section class="blue">
+
+  <div class="title">
+    <h1 style="font-size: 60px;">TAMU CKI</h1>
+  </div>
+
+
+  <div class="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" id="curve-1"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" id="curve-2"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" id="curve-3"></path>
+    </svg>
+
+    <div class="custom-shape-divider-top-1732398366">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" style="visibility:hidden" id="curve-11"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" id="curve-22" style="visibility:hidden"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" id="curve-33" style="visibility:hidden"></path>
+      </svg>
     </div>
+
+    <script>
+      let tween = KUTE.fromTo(
+        '#curve-1',
+        { path: '#curve-1' },
+        { path: '#curve-22' },
+        { repeat: 999, duration: 10000, yoyo: true }
+      )
+
+      let tween2 = KUTE.fromTo(
+            '#curve-2',
+            { path: '#curve-2' },
+            { path: '#curve-33' },
+            { repeat: 999, duration: 10000, yoyo: true }
+          )
+      let tween3 = KUTE.fromTo(
+        '#curve-3',
+        { path: '#curve-3' },
+        { path: '#curve-11' },
+        { repeat: 999, duration: 10000, yoyo: true }
+      )
+
+      tween.start()
+      tween2.start()
+      tween3.start()
+    </script>
+  </div>
+</section>
+<div class="container">
+<div class="about" id="about">
+  <h1>About</h1>
+  <p class="info" id="about_info">Lorem Ipsum</p>
+</div>
+<div class="signup">
+  <h1>Sign Up</h1>
+  <p class="info" id="about_info">Lorem Ipsum</p>
+</div>
+<div class="schedule">
+  <h1>Schedule</h1>
+  <p class="info" id="about_info">Lorem Ipsum</p>
+</div>
+<div class="contact">
+  <h1>Contact</h1>
+  <p class="info" id="about_info">Lorem Ipsum</p>
+</div>
+<div class="service">
+  <h1>Service</h1>
+  <p class="info" id="about_info">YAP YAP YAP YAP YAP</p>
+</div>
+</div>
+
+<script>
+  window.addEventListener('scroll', function() { 
+    let num = window.scrollY / window.innerHeight;
+      let x = 0;
+      document.getElementById('holder').style.opacity = num / 1.6;
+      document.getElementById('holder2').style.opacity = num / 2.0;
+  })
+</script>
+
+<div class="flex">
+<h1 class="projects-title">PROJECTS</h1>
+</div>
+
+<div class="holder" id="holder">
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+</div>
+<div class="holder" id="holder2">
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+  <div class="project" id="project">
+  </div>
+</div>
+
+<div class="bottom">
+  <div class="bottom-wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" id="curvebottom-1"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" id="curvebottom-2"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" id="curvebottom-3"></path>
+    </svg>
+
     <div class="info">
       <div class="service" id="service" name="service">
         <ul>
@@ -68,6 +161,42 @@
       <div class="contact" id="contact" name="contact">
         <h1>Contact</h1>
       </div>
+
     </div>
+    <div class="custom-shape-divider-bottom-1732404010">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" id="curvebottom-11" style="visibility:hidden"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" id="curvebottom-22" style="visibility:hidden"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" id="curvebottom-33" style="visibility:hidden"></path>
+      </svg>
+  </div>
+  <script>
+    let bottomtween = KUTE.fromTo(
+      '#curvebottom-1',
+      { path: '#curvebottom-1' },
+      { path: '#curvebottom-22' },
+      { repeat: 999, duration: 10000, yoyo: true }
+    )
+
+    let bottomtween2 = KUTE.fromTo(
+          '#curvebottom-2',
+          { path: '#curvebottom-2' },
+          { path: '#curvebottom-33' },
+          { repeat: 999, duration: 10000, yoyo: true }
+        )
+    let bottomtween3 = KUTE.fromTo(
+      '#curvebottom-3',
+      { path: '#curvebottom-3' },
+      { path: '#curvebottom-11' },
+      { repeat: 999, duration: 10000, yoyo: true }
+    )
+
+    bottomtween.start()
+    bottomtween2.start()
+    bottomtween3.start()
+  </script>
+</div>
+
+
 </body>
 </html>
